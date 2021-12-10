@@ -1,0 +1,33 @@
+{
+  "name": "rimjhim07-master",
+  "version": "1.0.0",
+  "description": "coursera",
+  "main": "index.html",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+	"scss": "node-sass -o css/ css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rimjhim07/coursera.git"
+  },
+  "author": "rimjhim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rimjhim07/coursera/issues"
+  },
+  "homepage": "https://github.com/rimjhim07/coursera#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "less": "^4.1.2",
+    "popper.js": "^1.12.9"
+  }
+}
